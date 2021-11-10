@@ -43,7 +43,3 @@ def test_multiplying_and_add_timeseries():
     timestamps = np.arange(0, 30, 0.1)
 
     assert np.array_equal(series_4(timestamps), reference_serie(timestamps))
-
-
-def test_empirical_timeseries():
-    pass

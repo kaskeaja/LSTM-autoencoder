@@ -100,7 +100,7 @@ class Autoencoder:
 
         for epoch in range(training_parameters.epochs):
             for raw_minibatch_data, _ in dataloader:
-                # Need to have dimensions on order [window_size, batch_size, features]
+                # Need to have dimensions in order [window_size, batch_size, features]
                 minibatch_data = raw_minibatch_data.permute(1, 0, 2).to(run_device)
                 assert minibatch_data.shape[0] == self._window_size
                 assert minibatch_data.shape[2] == self._num_timeseries
@@ -161,7 +161,7 @@ class Autoencoder:
         self._decoder.eval()
 
         for raw_minibatch_data, window_start in dataloader:
-            # Need to have dimensions on order [window_size, batch_size, features]
+            # Need to have dimensions in order [window_size, batch_size, features]
             minibatch_data = raw_minibatch_data.permute(1, 0, 2).to(run_device)
             encoder_last_hidden_state, encoder_last_cell_state = self._encoder(minibatch_data)
 

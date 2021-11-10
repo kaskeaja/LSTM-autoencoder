@@ -2,13 +2,7 @@
 
 # LSTM autoencoder #
 
-Simple LSTM autoencoder implementation
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+LSTM sequence to sequence model anomaly detection based on <a href="https://arxiv.org/abs/1607.00148v2">LSTM-based Encoder-Decoder for Multi-sensor Anomaly Detection</a>
 
 ### How do I get set up? ###
 
