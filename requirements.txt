@@ -1,0 +1,15 @@
+# For notebooks
+matplotlib
+seaborn
+jupyterlab
+
+# Development packages
+wheel
+setuptools
+tox
+
+# To run code checks also without tox
+pytest
+black
+flake8
+pytype
