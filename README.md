@@ -4,6 +4,8 @@
 
 LSTM sequence to sequence model anomaly detection based on <a href="https://arxiv.org/abs/1607.00148v2">LSTM-based Encoder-Decoder for Multi-sensor Anomaly Detection</a>
 
+Checkout the [notebook](notebooks/run.ipynb) to see how the model works on synthetic data.
+
 ### How do I get set up? ###
 
 Create virtual env and install pip packages
