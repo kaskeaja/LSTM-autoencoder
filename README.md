@@ -15,10 +15,6 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-Create and load data
-```
-./create_simple_data.sh
-```
 
 ### Running tests ###
 
